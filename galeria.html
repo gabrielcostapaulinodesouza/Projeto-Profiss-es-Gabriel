@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - GameStreamer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Oxanium:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header com navegação -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="index.html">Game<span>Streamer</span></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sobre.html" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="servicos.html" class="nav-link">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galeria.html" class="nav-link active">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contato.html" class="nav-link">Contato</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Página Galeria -->
+    <section class="gallery-page">
+        <div class="container">
+            <h1>Minha <span>Galeria</span></h1>
+            <p class="page-intro">Confira alguns momentos marcantes das minhas transmissões, setups e eventos especiais.</p>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Tudo</button>
+                <button class="filter-btn" data-filter="setup">Setup</button>
+                <button class="filter-btn" data-filter="stream">Transmissões</button>
+                <button class="filter-btn" data-filter="event">Eventos</button>
+                <button class="filter-btn" data-filter="game">Gameplay</button>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="gallery-item" data-category="stream">
+                    <img src="img/stream1.jpg" alt="Momento de transmissão">
+                    <div class="gallery-overlay">
+                        <h3>Transmissão de Valorant</h3>
+                        <p>Momento intenso durante ranked no Valorant</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="setup">
+                    <img src="img/stream2.jpg" alt="Setup de streaming">
+                    <div class="gallery-overlay">
+                        <h3>Meu Setup</h3>
+                        <p>Configuração completa para transmissões de qualidade</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="game">
+                    <img src="img/game1.jpg" alt="Gameplay League of Legends">
+                    <div class="gallery-overlay">
+                        <h3>League of Legends</h3>
+                        <p>Gameplay ranked no servidor BR</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="event">
+                    <img src="img/stream3.jpg" alt="Evento especial">
+                    <div class="gallery-overlay">
+                        <h3>Maratona Beneficente</h3>
+                        <p>24h de streaming para arrecadar fundos</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="game">
+                    <img src="img/game2.jpg" alt="Gameplay CS:GO">
+                    <div class="gallery-overlay">
+                        <h3>CS:GO Competitive</h3>
+                        <p>Partida competitiva com viewers</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="setup">
+                    <img src="img/game3.jpg" alt="Periféricos">
+                    <div class="gallery-overlay">
+                        <h3>Periféricos</h3>
+                        <p>Teclado, mouse e headset de alta qualidade</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="stream">
+                    <img src="img/game4.jpg" alt="Interação com chat">
+                    <div class="gallery-overlay">
+                        <h3>Interação com o Chat</h3>
+                        <p>Momento de diversão com a comunidade</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="event">
+                    <img src="img/game5.jpg" alt="Torneio">
+                    <div class="gallery-overlay">
+                        <h3>Torneio de Viewers</h3>
+                        <p>Competição especial para os inscritos</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials">
+                <h2>O que a Comunidade diz</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonial-item active">
+                        <div class="testimonial-content">
+                            <p>"As transmissões do GameStreamer são sempre divertidas e cheias de energia. A interação com a comunidade é incrível!"</p>
+                            <div class="testimonial-author">
+                                <h4>Carlos Silva</h4>
+                                <p>Inscrito há 1 ano</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <p>"Fiz uma sessão de coaching e melhorou muito meu gameplay. As dicas foram muito úteis e práticas."</p>
+                            <div class="testimonial-author">
+                                <h4>Ana Oliveira</h4>
+                                <p>Viewer há 8 meses</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <p>"Participar dos eventos especiais é sempre uma experiência única. A organização e a diversão são garantidas!"</p>
+                            <div class="testimonial-author">
+                                <h4>Ricardo Santos</h4>
+                                <p>Inscrito há 2 anos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button id="prevTestimonial"><i class="fas fa-chevron-left"></i></button>
+                    <button id="nextTestimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="highlight-stream">
+                <h2>Transmissão em Destaque</h2>
+                <div class="video-container">
+                    <div class="video-placeholder">
+                        <i class="fab fa-twitch"></i>
+                        <p>Transmissão ao vivo da Twitch</p>
+                        <a href="https://www.twitch.tv" class="btn btn-primary" target="_blank">Assistir Agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>GameStreamer</h3>
+                <p>Transmitindo jogos e divertindo a comunidade desde 2020.</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-twitch"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p><i class="fas fa-envelope"></i> contato@gamestreamer.com</p>
+                <p><i class="fab fa-twitch"></i> twitch.tv/gamestreamer</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 GameStreamer. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
